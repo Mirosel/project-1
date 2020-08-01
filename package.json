@@ -1,0 +1,19 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "simple nodejs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirosel/project-1.git"
+  },
+  "author": "Kirill Kvitka <kirill.kvitka@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mirosel/project-1/issues"
+  },
+  "homepage": "https://github.com/Mirosel/project-1#readme"
+}
