@@ -4,6 +4,8 @@
   "description": "simple nodejs project",
   "main": "index.js",
   "scripts": {
+    "fix": "eslint src/** --fix",
+    "lint": "eslint src/**",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +22,13 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@types/node": "^14.0.27"
+    "@types/node": "^14.0.27",
+    "eslint": "^7.6.0",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
   }
 }
